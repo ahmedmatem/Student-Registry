@@ -19,5 +19,5 @@ jobs:
         node-version: 20
     - name: Install dependencies
       run: npm install
-    #- name: Execute the tests
-     # run: npm test
+    - name: Execute the tests
+      run: npm test
